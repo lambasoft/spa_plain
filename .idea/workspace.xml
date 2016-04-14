@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1a6de16-18a4-4d21-b3aa-ccee5314e10d" name="Default" comment="" />
+    <ignored path="spa_plain.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="spa_plain" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.472727">
+              <caret line="66" column="8" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.head.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/home.head.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.3333335">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/home.header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.3333335">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav_bar.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/common/nav_bar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4347826">
+              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Auth.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/phpauth/phpauth/Auth.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.2">
+              <caret line="605" column="27" selection-start-line="605" selection-start-column="20" selection-end-line="605" selection-end-column="27" />
+              <folding>
+                <element signature="e#3251#5146#0#PHP" expanded="false" />
+                <element signature="e#5237#6305#0#PHP" expanded="false" />
+                <element signature="e#6428#7550#0#PHP" expanded="false" />
+                <element signature="e#7650#7774#0#PHP" expanded="false" />
+                <element signature="e#7900#8032#0#PHP" expanded="false" />
+                <element signature="e#8152#8421#0#PHP" expanded="false" />
+                <element signature="e#8550#9550#0#PHP" expanded="false" />
+                <element signature="e#9651#9862#0#PHP" expanded="false" />
+                <element signature="e#9953#10158#0#PHP" expanded="false" />
+                <element signature="e#10256#11294#0#PHP" expanded="false" />
+                <element signature="e#11783#12034#0#PHP" expanded="false" />
+                <element signature="e#12227#13957#0#PHP" expanded="false" />
+                <element signature="e#14073#14438#0#PHP" expanded="false" />
+                <element signature="e#15108#16786#0#PHP" expanded="false" />
+                <element signature="e#16980#20494#0#PHP" expanded="false" />
+                <element signature="e#20617#21406#0#PHP" expanded="false" />
+                <element signature="e#21489#21660#0#PHP" expanded="false" />
+                <element signature="e#21797#22076#0#PHP" expanded="false" />
+                <element signature="e#22173#23074#0#PHP" expanded="false" />
+                <element signature="e#23302#25239#0#PHP" expanded="false" />
+                <element signature="e#25359#26718#0#PHP" expanded="false" />
+                <element signature="e#26930#28797#0#PHP" expanded="false" />
+                <element signature="e#28967#30667#0#PHP" expanded="false" />
+                <element signature="e#30733#31270#0#PHP" expanded="false" />
+                <element signature="e#31377#31449#0#PHP" expanded="false" />
+                <element signature="e#31512#31850#0#PHP" expanded="false" />
+                <element signature="e#31994#32795#0#PHP" expanded="false" />
+                <element signature="e#32901#33190#0#PHP" expanded="false" />
+                <element signature="e#33247#33465#0#PHP" expanded="false" />
+                <element signature="e#33527#33675#0#PHP" expanded="false" />
+                <element signature="e#34007#34485#0#PHP" expanded="false" />
+                <marker date="1460676444951" expanded="true" signature="6036:6101" placeholder="UPDATE ${{$t... " />
+                <marker date="1460676444951" expanded="true" signature="6896:6955" placeholder="SELECT id FR... $" />
+                <marker date="1460676444951" expanded="true" signature="8218:8277" placeholder="SELECT id FR... $" />
+                <marker date="1460676444951" expanded="true" signature="9237:9353" placeholder="INSERT INTO $... " />
+                <marker date="1460676444951" expanded="true" signature="9732:9789" placeholder="DELETE FROM " />
+                <marker date="1460676444951" expanded="true" signature="10026:10084" placeholder="DELETE FROM " />
+                <marker date="1460676444951" expanded="true" signature="10585:10686" placeholder="SELECT id, u... $" />
+                <marker date="1460676444951" expanded="true" signature="11480:11542" placeholder="SELECT uid F... $" />
+                <marker date="1460676444951" expanded="true" signature="11855:11920" placeholder="SELECT count... $" />
+                <marker date="1460676444951" expanded="true" signature="12365:12415" placeholder="INSERT INTO $... " />
+                <marker date="1460676444951" expanded="true" signature="12779:12832" placeholder="DELETE FROM " />
+                <marker date="1460676444951" expanded="true" signature="13450:13553" placeholder="UPDATE ${{$t... " />
+                <marker date="1460676444951" expanded="true" signature="13732:13785" placeholder="DELETE FROM " />
+                <marker date="1460676444951" expanded="true" signature="14143:14222" placeholder="SELECT email... $" />
+                <marker date="1460676444951" expanded="true" signature="14647:14702" placeholder="SELECT * FRO... $" />
+                <marker date="1460676444951" expanded="true" signature="16064:16117" placeholder="DELETE FROM " />
+                <marker date="1460676444951" expanded="true" signature="16278:16335" placeholder="DELETE FROM " />
+                <marker date="1460676444951" expanded="true" signature="16496:16553" placeholder="DELETE FROM " />
+                <marker date="1460676444951" expanded="true" signature="17699:17780" placeholder="SELECT id, e... $" />
+                <marker date="1460676444951" expanded="true" signature="18432:18521" placeholder="INSERT INTO $... " />
+                <marker date="1460676444951" expanded="true" signature="20720:20807" placeholder="SELECT id, u... $" />
+                <marker date="1460676444951" expanded="true" signature="21560:21616" placeholder="DELETE FROM " />
+                <marker date="1460676444951" expanded="true" signature="24858:24923" placeholder="UPDATE ${{$t... " />
+                <marker date="1460676444951" expanded="true" signature="25959:26018" placeholder="SELECT id FR... $" />
+                <marker date="1460676444951" expanded="true" signature="28581:28646" placeholder="UPDATE ${{$t... " />
+                <marker date="1460676444951" expanded="true" signature="30340:30402" placeholder="UPDATE ${{$t... " />
+                <marker date="1460676444951" expanded="true" signature="30863:30928" placeholder="SELECT count... $" />
+                <marker date="1460676444951" expanded="true" signature="31704:31778" placeholder="INSERT INTO $... " />
+                <marker date="1460676444951" expanded="true" signature="32113:32169" placeholder="DELETE FROM " />
+                <marker date="1460676444951" expanded="true" signature="32261:32332" placeholder="SELECT id, e... $" />
+                <marker date="1460676444951" expanded="true" signature="32654:32710" placeholder="DELETE FROM " />
+                <marker date="1460676444951" expanded="true" signature="34114:34176" placeholder="SELECT passw... $" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.0">
+              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authenticate.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/actions/authenticate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.3090909">
+              <caret line="65" column="131" selection-start-line="65" selection-start-column="131" selection-end-line="65" selection-end-column="131" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.333333">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.5365853">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.666667">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pages/index.php" />
+        <option value="$PROJECT_DIR$/css/app.css" />
+        <option value="$PROJECT_DIR$/pages/home.php" />
+        <option value="$PROJECT_DIR$/views/layouts/home.header.php" />
+        <option value="$PROJECT_DIR$/views/layouts/home.footer.php" />
+        <option value="$PROJECT_DIR$/views/home.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/views/layouts/common/navbar.php" />
+        <option value="$PROJECT_DIR$/views/layouts/common/nav_bar.php" />
+        <option value="$PROJECT_DIR$/views/layouts/home.head.php" />
+        <option value="$PROJECT_DIR$/views/layouts/login.head.php" />
+        <option value="$PROJECT_DIR$/views/auth/login.php" />
+        <option value="$PROJECT_DIR$/views/auth/register.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/resources/views/auth/password_reset.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/home.header.php" />
+        <option value="$PROJECT_DIR$/Classes/Helpers.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/resources/css/style.css" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.php" />
+        <option value="$PROJECT_DIR$/actions/authenticate.php" />
+        <option value="$PROJECT_DIR$/vendor/phpauth/phpauth/Auth.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/common/nav_bar.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="-4" />
+    <option name="width" value="1366" />
+    <option name="height" value="772" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa_plain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa_plain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa_plain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa_plain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa_plain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa_plain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa_plain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa_plain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa_plain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa_plain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa_plain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa_plain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa_plain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa_plain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa_plain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa_plain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa_plain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="SearchEverywhereHistoryKey" value="con&#9;FILE&#9;file:///opt/lampp/htdocs/spa_plain/config.php&#10;na&#9;FILE&#9;file:///opt/lampp/htdocs/spa_plain/resources/views/layouts/common/nav_bar.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vendor" />
+      <recent name="$PROJECT_DIR$/resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1a6de16-18a4-4d21-b3aa-ccee5314e10d" name="Default" comment="" />
+      <created>1460639425130</created>
+      <option name="number" value="Default" />
+      <updated>1460639425130</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vendor/phpauth/phpauth/database_mysql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpauth/phpauth/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8120301">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <marker date="1446822502000" expanded="true" signature="533:547" placeholder="SELECT * FRO... $" />
+            <marker date="1446822502000" expanded="true" signature="1164:1232" placeholder="UPDATE ${{$t... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94736844">
+          <caret line="1026" column="21" selection-start-line="1026" selection-start-column="21" selection-end-line="1026" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/register.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/login.head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.666667">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/home.footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3333334">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/password_reset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-75.333336">
+          <caret line="113" column="78" selection-start-line="113" selection-start-column="78" selection-end-line="113" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.666667">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/home.head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3333335">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/home.header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3333335">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.333333">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3090909">
+          <caret line="65" column="131" selection-start-line="65" selection-start-column="131" selection-end-line="65" selection-end-column="131" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.0">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5365853">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpauth/phpauth/Auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2">
+          <caret line="605" column="27" selection-start-line="605" selection-start-column="20" selection-end-line="605" selection-end-column="27" />
+          <folding>
+            <element signature="e#3251#5146#0#PHP" expanded="false" />
+            <element signature="e#5237#6305#0#PHP" expanded="false" />
+            <element signature="e#6428#7550#0#PHP" expanded="false" />
+            <element signature="e#7650#7774#0#PHP" expanded="false" />
+            <element signature="e#7900#8032#0#PHP" expanded="false" />
+            <element signature="e#8152#8421#0#PHP" expanded="false" />
+            <element signature="e#8550#9550#0#PHP" expanded="false" />
+            <element signature="e#9651#9862#0#PHP" expanded="false" />
+            <element signature="e#9953#10158#0#PHP" expanded="false" />
+            <element signature="e#10256#11294#0#PHP" expanded="false" />
+            <element signature="e#11783#12034#0#PHP" expanded="false" />
+            <element signature="e#12227#13957#0#PHP" expanded="false" />
+            <element signature="e#14073#14438#0#PHP" expanded="false" />
+            <element signature="e#15108#16786#0#PHP" expanded="false" />
+            <element signature="e#16980#20494#0#PHP" expanded="false" />
+            <element signature="e#20617#21406#0#PHP" expanded="false" />
+            <element signature="e#21489#21660#0#PHP" expanded="false" />
+            <element signature="e#21797#22076#0#PHP" expanded="false" />
+            <element signature="e#22173#23074#0#PHP" expanded="false" />
+            <element signature="e#23302#25239#0#PHP" expanded="false" />
+            <element signature="e#25359#26718#0#PHP" expanded="false" />
+            <element signature="e#26930#28797#0#PHP" expanded="false" />
+            <element signature="e#28967#30667#0#PHP" expanded="false" />
+            <element signature="e#30733#31270#0#PHP" expanded="false" />
+            <element signature="e#31377#31449#0#PHP" expanded="false" />
+            <element signature="e#31512#31850#0#PHP" expanded="false" />
+            <element signature="e#31994#32795#0#PHP" expanded="false" />
+            <element signature="e#32901#33190#0#PHP" expanded="false" />
+            <element signature="e#33247#33465#0#PHP" expanded="false" />
+            <element signature="e#33527#33675#0#PHP" expanded="false" />
+            <element signature="e#34007#34485#0#PHP" expanded="false" />
+            <marker date="1460676444951" expanded="true" signature="6036:6101" placeholder="UPDATE ${{$t... " />
+            <marker date="1460676444951" expanded="true" signature="6896:6955" placeholder="SELECT id FR... $" />
+            <marker date="1460676444951" expanded="true" signature="8218:8277" placeholder="SELECT id FR... $" />
+            <marker date="1460676444951" expanded="true" signature="9237:9353" placeholder="INSERT INTO $... " />
+            <marker date="1460676444951" expanded="true" signature="9732:9789" placeholder="DELETE FROM " />
+            <marker date="1460676444951" expanded="true" signature="10026:10084" placeholder="DELETE FROM " />
+            <marker date="1460676444951" expanded="true" signature="10585:10686" placeholder="SELECT id, u... $" />
+            <marker date="1460676444951" expanded="true" signature="11480:11542" placeholder="SELECT uid F... $" />
+            <marker date="1460676444951" expanded="true" signature="11855:11920" placeholder="SELECT count... $" />
+            <marker date="1460676444951" expanded="true" signature="12365:12415" placeholder="INSERT INTO $... " />
+            <marker date="1460676444951" expanded="true" signature="12779:12832" placeholder="DELETE FROM " />
+            <marker date="1460676444951" expanded="true" signature="13450:13553" placeholder="UPDATE ${{$t... " />
+            <marker date="1460676444951" expanded="true" signature="13732:13785" placeholder="DELETE FROM " />
+            <marker date="1460676444951" expanded="true" signature="14143:14222" placeholder="SELECT email... $" />
+            <marker date="1460676444951" expanded="true" signature="14647:14702" placeholder="SELECT * FRO... $" />
+            <marker date="1460676444951" expanded="true" signature="16064:16117" placeholder="DELETE FROM " />
+            <marker date="1460676444951" expanded="true" signature="16278:16335" placeholder="DELETE FROM " />
+            <marker date="1460676444951" expanded="true" signature="16496:16553" placeholder="DELETE FROM " />
+            <marker date="1460676444951" expanded="true" signature="17699:17780" placeholder="SELECT id, e... $" />
+            <marker date="1460676444951" expanded="true" signature="18432:18521" placeholder="INSERT INTO $... " />
+            <marker date="1460676444951" expanded="true" signature="20720:20807" placeholder="SELECT id, u... $" />
+            <marker date="1460676444951" expanded="true" signature="21560:21616" placeholder="DELETE FROM " />
+            <marker date="1460676444951" expanded="true" signature="24858:24923" placeholder="UPDATE ${{$t... " />
+            <marker date="1460676444951" expanded="true" signature="25959:26018" placeholder="SELECT id FR... $" />
+            <marker date="1460676444951" expanded="true" signature="28581:28646" placeholder="UPDATE ${{$t... " />
+            <marker date="1460676444951" expanded="true" signature="30340:30402" placeholder="UPDATE ${{$t... " />
+            <marker date="1460676444951" expanded="true" signature="30863:30928" placeholder="SELECT count... $" />
+            <marker date="1460676444951" expanded="true" signature="31704:31778" placeholder="INSERT INTO $... " />
+            <marker date="1460676444951" expanded="true" signature="32113:32169" placeholder="DELETE FROM " />
+            <marker date="1460676444951" expanded="true" signature="32261:32332" placeholder="SELECT id, e... $" />
+            <marker date="1460676444951" expanded="true" signature="32654:32710" placeholder="DELETE FROM " />
+            <marker date="1460676444951" expanded="true" signature="34114:34176" placeholder="SELECT passw... $" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.472727">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/common/nav_bar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4347826">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
