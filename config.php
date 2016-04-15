@@ -7,6 +7,7 @@
  */
 require 'vendor/autoload.php';
 require_once 'functions.php';
+require_once 'actions/User.php';
 
 $errors = "";
 $config = array(
@@ -42,13 +43,12 @@ $config = array(
     ex. require_once(LIBRARY_PATH . "Paginator.php")
 */
 $paths = explode($config['urls']['mainDir'],dirname(__FILE__));
-defined("WEB_PATH") or define("WEB_PATH", $paths[1]  );
-
-defined("RESOURCES_PATH") or define("RESOURCES_PATH", WEB_PATH . "resources");
-defined("ACTIONS_PATH") or define("ACTIONS_PATH", WEB_PATH . "actions");
+defined("WEB_PATH") or define("WEB_PATH", $config['urls']['mainDir'] .  $paths[1]  );
+defined("RESOURCES_PATH") or define("RESOURCES_PATH", "resources");
+defined("ACTIONS_PATH") or define("ACTIONS_PATH", "actions");
 defined("STYLES_PATH") or define("STYLES_PATH", $config['paths']['resources']['css']);
-defined("PLUGINS_PATH") or define("PLUGINS_PATH", WEB_PATH . "plugins");
-defined("BOOTSTRAP_PATH") or define("BOOTSTRAP_PATH", $config['paths']['resources']['bootstrap']);
+defined("PLUGINS_PATH") or define("PLUGINS_PATH", "plugins");
+defined("BOOTSTRAP_PATH") or define("BOOTSTRAP_PATH",  $config['paths']['resources']['bootstrap']);
 
 /*
     Error reporting.
@@ -61,8 +61,10 @@ $db = $config['db']['local'];
 $dbh = new PDO(sprintf("mysql:host=%s;dbname=%s",$db['host'],$db['dbname']), $db['username'], $db['password']);
 
 $config = new PHPAuth\Config($dbh);
-$auth   = new PHPAuth\Auth($dbh, $config);
+//$auth   = new PHPAuth\Auth($dbh, $config);
+$User = new User($dbh, $config);
 
-if($auth->isLogged()){
-   $User = $auth->getUser($auth->getSessionUID($auth->getSessionHash()));
-}
+
+//if($User->auth->isLogged()){
+//   $User = $auth->getUser($auth->getSessionUID($auth->getSessionHash()));
+//}

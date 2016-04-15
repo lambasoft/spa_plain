@@ -4,7 +4,7 @@
             <div class="col-md-4 col-md-offset-1">
                 <img class="img-responsive" src="resources/assets/logo.png" alt="">
                 <div class="text-center">
-                    <a href="spas" class="btn btn-lg btn-primary standard-button">Get Started</a>
+                    <a href="login" class="btn btn-lg btn-primary standard-button">Get Started</a>
                 </div>
             </div>
         </div>

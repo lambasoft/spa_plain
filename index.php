@@ -16,11 +16,20 @@ if(isset($_GET['page'])){
         case "login":
             $page = "auth/login";
             break;
+        case "logout":
+            $page = "auth/logout";
+            break;
         case "register":
             $page = "auth/register";
             break;
+        case "activate":
+            $page = "auth/activate";
+            break;
         case "password_reset":
             $page = "auth/password_reset";
+            break;
+        case "reset":
+            $page = "auth/reset";
             break;
     }
 

@@ -11,7 +11,7 @@
             </button>
 
             <!-- Branding Image -->
-            <a class="navbar-brand" href="home">
+            <a class="navbar-brand" href="/<?PHP echo WEB_PATH;  ?>/home">
                 Spa Advisor
             </a>
         </div>
@@ -19,7 +19,7 @@
         <div class="collapse navbar-collapse" id="app-navbar-collapse">
             <!-- Left Side Of Navbar -->
             <ul class="nav navbar-nav">
-                <li><a href="home">Home</a></li>
+                <li><a href="/<?PHP echo WEB_PATH;  ?>/home">Home</a></li>
             </ul>
 
             <!-- Right Side Of Navbar -->
@@ -27,11 +27,11 @@
                 <!-- Authentication Links -->
 
                 <?php
-                if($auth->isLogged()){
+                if($User->isLogged()){
                     ?>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                            <?php echo $User['first_name']; ?> <span class="caret"></span>
+                            <?php echo $User->get("first_name"); ?> <span class="caret"></span>
                         </a>
 
                         <ul class="dropdown-menu" role="menu">
@@ -41,8 +41,8 @@
                     <?php
                 }else{
                     ?>
-                    <li><a href="login">Login</a></li>
-                    <li><a href="register">Register</a></li>
+                    <li><a href="/<?PHP echo WEB_PATH;  ?>/login">Login</a></li>
+                    <li><a href="/<?PHP echo WEB_PATH;  ?>/register">Register</a></li>
                     <?php
                 }
                 ?>

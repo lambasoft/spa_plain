@@ -1,4 +1,4 @@
-<filesMatch "\.(html|htm|js|css)$">
+<filesMatch "\.(php|html|htm|js|css)$">
   FileETag None
   <ifModule mod_headers.c>
      Header unset ETag
@@ -10,3 +10,5 @@
 
 RewriteEngine On    # Turn on the rewriting engine
 RewriteRule    ^([A-z]+)?$    index.php?page=$1    [NC,L]
+RewriteRule    ^activate/code/([A-Za-z0-9-]+)/?$    index.php?page=activate&code=$1    [NC,L]
+RewriteRule    ^reset/code/([A-Za-z0-9-]+)/?$    index.php?page=reset&code=$1    [NC,L]

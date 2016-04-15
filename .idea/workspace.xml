@@ -22,145 +22,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.php">
+      <file leaf-file-name="reset.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/reset.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.472727">
-              <caret line="66" column="8" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.head.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/home.head.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3333335">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/home.header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3333335">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav_bar.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/common/nav_bar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4347826">
-              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Auth.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/phpauth/phpauth/Auth.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.2">
-              <caret line="605" column="27" selection-start-line="605" selection-start-column="20" selection-end-line="605" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.3768116">
+              <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
               <folding>
-                <element signature="e#3251#5146#0#PHP" expanded="false" />
-                <element signature="e#5237#6305#0#PHP" expanded="false" />
-                <element signature="e#6428#7550#0#PHP" expanded="false" />
-                <element signature="e#7650#7774#0#PHP" expanded="false" />
-                <element signature="e#7900#8032#0#PHP" expanded="false" />
-                <element signature="e#8152#8421#0#PHP" expanded="false" />
-                <element signature="e#8550#9550#0#PHP" expanded="false" />
-                <element signature="e#9651#9862#0#PHP" expanded="false" />
-                <element signature="e#9953#10158#0#PHP" expanded="false" />
-                <element signature="e#10256#11294#0#PHP" expanded="false" />
-                <element signature="e#11783#12034#0#PHP" expanded="false" />
-                <element signature="e#12227#13957#0#PHP" expanded="false" />
-                <element signature="e#14073#14438#0#PHP" expanded="false" />
-                <element signature="e#15108#16786#0#PHP" expanded="false" />
-                <element signature="e#16980#20494#0#PHP" expanded="false" />
-                <element signature="e#20617#21406#0#PHP" expanded="false" />
-                <element signature="e#21489#21660#0#PHP" expanded="false" />
-                <element signature="e#21797#22076#0#PHP" expanded="false" />
-                <element signature="e#22173#23074#0#PHP" expanded="false" />
-                <element signature="e#23302#25239#0#PHP" expanded="false" />
-                <element signature="e#25359#26718#0#PHP" expanded="false" />
-                <element signature="e#26930#28797#0#PHP" expanded="false" />
-                <element signature="e#28967#30667#0#PHP" expanded="false" />
-                <element signature="e#30733#31270#0#PHP" expanded="false" />
-                <element signature="e#31377#31449#0#PHP" expanded="false" />
-                <element signature="e#31512#31850#0#PHP" expanded="false" />
-                <element signature="e#31994#32795#0#PHP" expanded="false" />
-                <element signature="e#32901#33190#0#PHP" expanded="false" />
-                <element signature="e#33247#33465#0#PHP" expanded="false" />
-                <element signature="e#33527#33675#0#PHP" expanded="false" />
-                <element signature="e#34007#34485#0#PHP" expanded="false" />
-                <marker date="1460676444951" expanded="true" signature="6036:6101" placeholder="UPDATE ${{$t... " />
-                <marker date="1460676444951" expanded="true" signature="6896:6955" placeholder="SELECT id FR... $" />
-                <marker date="1460676444951" expanded="true" signature="8218:8277" placeholder="SELECT id FR... $" />
-                <marker date="1460676444951" expanded="true" signature="9237:9353" placeholder="INSERT INTO $... " />
-                <marker date="1460676444951" expanded="true" signature="9732:9789" placeholder="DELETE FROM " />
-                <marker date="1460676444951" expanded="true" signature="10026:10084" placeholder="DELETE FROM " />
-                <marker date="1460676444951" expanded="true" signature="10585:10686" placeholder="SELECT id, u... $" />
-                <marker date="1460676444951" expanded="true" signature="11480:11542" placeholder="SELECT uid F... $" />
-                <marker date="1460676444951" expanded="true" signature="11855:11920" placeholder="SELECT count... $" />
-                <marker date="1460676444951" expanded="true" signature="12365:12415" placeholder="INSERT INTO $... " />
-                <marker date="1460676444951" expanded="true" signature="12779:12832" placeholder="DELETE FROM " />
-                <marker date="1460676444951" expanded="true" signature="13450:13553" placeholder="UPDATE ${{$t... " />
-                <marker date="1460676444951" expanded="true" signature="13732:13785" placeholder="DELETE FROM " />
-                <marker date="1460676444951" expanded="true" signature="14143:14222" placeholder="SELECT email... $" />
-                <marker date="1460676444951" expanded="true" signature="14647:14702" placeholder="SELECT * FRO... $" />
-                <marker date="1460676444951" expanded="true" signature="16064:16117" placeholder="DELETE FROM " />
-                <marker date="1460676444951" expanded="true" signature="16278:16335" placeholder="DELETE FROM " />
-                <marker date="1460676444951" expanded="true" signature="16496:16553" placeholder="DELETE FROM " />
-                <marker date="1460676444951" expanded="true" signature="17699:17780" placeholder="SELECT id, e... $" />
-                <marker date="1460676444951" expanded="true" signature="18432:18521" placeholder="INSERT INTO $... " />
-                <marker date="1460676444951" expanded="true" signature="20720:20807" placeholder="SELECT id, u... $" />
-                <marker date="1460676444951" expanded="true" signature="21560:21616" placeholder="DELETE FROM " />
-                <marker date="1460676444951" expanded="true" signature="24858:24923" placeholder="UPDATE ${{$t... " />
-                <marker date="1460676444951" expanded="true" signature="25959:26018" placeholder="SELECT id FR... $" />
-                <marker date="1460676444951" expanded="true" signature="28581:28646" placeholder="UPDATE ${{$t... " />
-                <marker date="1460676444951" expanded="true" signature="30340:30402" placeholder="UPDATE ${{$t... " />
-                <marker date="1460676444951" expanded="true" signature="30863:30928" placeholder="SELECT count... $" />
-                <marker date="1460676444951" expanded="true" signature="31704:31778" placeholder="INSERT INTO $... " />
-                <marker date="1460676444951" expanded="true" signature="32113:32169" placeholder="DELETE FROM " />
-                <marker date="1460676444951" expanded="true" signature="32261:32332" placeholder="SELECT id, e... $" />
-                <marker date="1460676444951" expanded="true" signature="32654:32710" placeholder="DELETE FROM " />
-                <marker date="1460676444951" expanded="true" signature="34114:34176" placeholder="SELECT passw... $" />
+                <element signature="n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/actions/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.0">
-              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            <state vertical-scroll-proportion="-7.6666665">
+              <caret line="203" column="13" selection-start-line="203" selection-start-column="13" selection-end-line="203" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authenticate.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/actions/authenticate.php">
+      <file leaf-file-name="logout.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/logout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.3090909">
-              <caret line="65" column="131" selection-start-line="65" selection-start-column="131" selection-end-line="65" selection-end-column="131" />
+            <state vertical-scroll-proportion="-4.0">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/auth/register.php">
+      <file leaf-file-name="password_reset.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/password_reset.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.333333">
-              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+            <state vertical-scroll-proportion="-13.0">
+              <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -169,19 +67,110 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/auth/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.5365853">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state vertical-scroll-proportion="36.333332">
+              <caret line="26" column="128" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="128" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/css/style.css">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.0">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav_bar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/common/nav_bar.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-8.666667">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
+              <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.0">
+              <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activate.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/activate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.666667">
+              <caret line="79" column="65" selection-start-line="79" selection-start-column="65" selection-end-line="80" selection-end-column="93" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Auth.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/phpauth/phpauth/Auth.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.0">
+              <caret line="930" column="29" selection-start-line="930" selection-start-column="20" selection-end-line="930" selection-end-column="29" />
+              <folding>
+                <element signature="e#8977#9121#0#PHP" expanded="false" />
+                <element signature="e#9263#9577#0#PHP" expanded="false" />
+                <element signature="e#9732#10888#0#PHP" expanded="false" />
+                <element signature="e#11903#13133#0#PHP" expanded="false" />
+                <element signature="e#13711#14007#0#PHP" expanded="false" />
+                <element signature="e#16430#16873#0#PHP" expanded="false" />
+                <element signature="e#17674#19580#0#PHP" expanded="false" />
+                <element signature="e#24139#25081#0#PHP" expanded="false" />
+                <element signature="e#25186#25375#0#PHP" expanded="false" />
+                <element signature="e#25534#25864#0#PHP" expanded="false" />
+                <element signature="e#25983#26983#0#PHP" expanded="false" />
+                <element signature="e#31452#33592#0#PHP" expanded="false" />
+                <element signature="e#35850#36409#0#PHP" expanded="false" />
+                <element signature="e#36516#36588#0#PHP" expanded="false" />
+                <element signature="e#36669#37025#0#PHP" expanded="false" />
+                <element signature="e#37188#38015#0#PHP" expanded="false" />
+                <element signature="e#38143#38477#0#PHP" expanded="false" />
+                <element signature="e#39376#39854#0#PHP" expanded="false" />
+                <marker date="1460729677457" expanded="true" signature="6810:6875" placeholder="UPDATE ${{$t... " />
+                <marker date="1460729677457" expanded="true" signature="7776:7835" placeholder="SELECT id FR... $" />
+                <marker date="1460729677457" expanded="true" signature="9338:9397" placeholder="SELECT id FR... $" />
+                <marker date="1460729677457" expanded="true" signature="10539:10655" placeholder="INSERT INTO $... " />
+                <marker date="1460729677457" expanded="true" signature="11101:11158" placeholder="DELETE FROM " />
+                <marker date="1460729677457" expanded="true" signature="11464:11522" placeholder="DELETE FROM " />
+                <marker date="1460729677457" expanded="true" signature="12268:12369" placeholder="SELECT id, u... $" />
+                <marker date="1460729677457" expanded="true" signature="13350:13412" placeholder="SELECT uid F... $" />
+                <marker date="1460729677457" expanded="true" signature="13792:13857" placeholder="SELECT count... $" />
+                <marker date="1460729677457" expanded="true" signature="14383:14433" placeholder="INSERT INTO $... " />
+                <marker date="1460729677457" expanded="true" signature="14875:14928" placeholder="DELETE FROM " />
+                <marker date="1460729677457" expanded="true" signature="15716:15819" placeholder="UPDATE ${{$t... " />
+                <marker date="1460729677457" expanded="true" signature="16019:16072" placeholder="DELETE FROM " />
+                <marker date="1460729677457" expanded="true" signature="16509:16588" placeholder="SELECT email... $" />
+                <marker date="1460729677457" expanded="true" signature="17112:17167" placeholder="SELECT * FRO... $" />
+                <marker date="1460729677457" expanded="true" signature="18735:18788" placeholder="DELETE FROM " />
+                <marker date="1460729677457" expanded="true" signature="18985:19042" placeholder="DELETE FROM " />
+                <marker date="1460729677457" expanded="true" signature="19239:19296" placeholder="DELETE FROM " />
+                <marker date="1460729677457" expanded="true" signature="20678:20759" placeholder="SELECT id, e... $" />
+                <marker date="1460729677457" expanded="true" signature="21555:21644" placeholder="INSERT INTO $... " />
+                <marker date="1460729677457" expanded="true" signature="24257:24344" placeholder="SELECT id, u... $" />
+                <marker date="1460729677457" expanded="true" signature="25266:25322" placeholder="DELETE FROM " />
+                <marker date="1460729677457" expanded="true" signature="29053:29118" placeholder="UPDATE ${{$t... " />
+                <marker date="1460729677457" expanded="true" signature="30296:30355" placeholder="SELECT id FR... $" />
+                <marker date="1460729677457" expanded="true" signature="33349:33414" placeholder="UPDATE ${{$t... " />
+                <marker date="1460729677457" expanded="true" signature="35382:35444" placeholder="UPDATE ${{$t... " />
+                <marker date="1460729677457" expanded="true" signature="35995:36060" placeholder="SELECT count... $" />
+                <marker date="1460729677457" expanded="true" signature="36876:36950" placeholder="INSERT INTO $... " />
+                <marker date="1460729677457" expanded="true" signature="37320:37376" placeholder="DELETE FROM " />
+                <marker date="1460729677457" expanded="true" signature="37478:37549" placeholder="SELECT id, e... $" />
+                <marker date="1460729677457" expanded="true" signature="37871:37927" placeholder="DELETE FROM " />
+                <marker date="1460729677457" expanded="true" signature="39483:39545" placeholder="SELECT passw... $" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -204,19 +193,26 @@
         <option value="$PROJECT_DIR$/views/layouts/login.head.php" />
         <option value="$PROJECT_DIR$/views/auth/login.php" />
         <option value="$PROJECT_DIR$/views/auth/register.php" />
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/resources/views/auth/password_reset.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/home.header.php" />
         <option value="$PROJECT_DIR$/Classes/Helpers.php" />
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/resources/css/style.css" />
-        <option value="$PROJECT_DIR$/resources/views/auth/login.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/register.php" />
         <option value="$PROJECT_DIR$/actions/authenticate.php" />
-        <option value="$PROJECT_DIR$/vendor/phpauth/phpauth/Auth.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/home.header.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.php" />
+        <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/auth.head.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/activate.php" />
+        <option value="$PROJECT_DIR$/vendor/phpauth/phpauth/Auth.php" />
+        <option value="$PROJECT_DIR$/vendor/phpauth/phpauth/languages/en_GB.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/actions/User.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/password_reset.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/logout.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/common/nav_bar.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/reset.php" />
       </list>
     </option>
   </component>
@@ -413,7 +409,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="con&#9;FILE&#9;file:///opt/lampp/htdocs/spa_plain/config.php&#10;na&#9;FILE&#9;file:///opt/lampp/htdocs/spa_plain/resources/views/layouts/common/nav_bar.php" />
+    <property name="SearchEverywhereHistoryKey" value="Auth&#9;FILE&#9;file:///opt/lampp/htdocs/spa_plain/vendor/phpauth/phpauth/Auth.php&#10;auth&#9;FILE&#9;file:///opt/lampp/htdocs/spa_plain/vendor/phpauth/phpauth/Auth.php&#10;ac&#9;FILE&#9;file:///opt/lampp/htdocs/spa_plain/resources/views/auth/activate.php&#10;test&#9;FILE&#9;file:///opt/lampp/htdocs/spa_plain/test.php&#10;con&#9;FILE&#9;file:///opt/lampp/htdocs/spa_plain/config.php&#10;na&#9;FILE&#9;file:///opt/lampp/htdocs/spa_plain/resources/views/layouts/common/nav_bar.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -490,7 +486,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -543,34 +539,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/login.head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.666667">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/home.footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3333334">
           <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/password_reset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -611,129 +583,190 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/home.header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3333335">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.17391305">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.php">
+    <entry file="file://$PROJECT_DIR$/vendor/phpmailer/phpmailer/class.phpmailer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.333333">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="1173" column="20" selection-start-line="1173" selection-start-column="20" selection-end-line="1173" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/actions/authenticate.php">
+    <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.3090909">
-          <caret line="65" column="131" selection-start-line="65" selection-start-column="131" selection-end-line="65" selection-end-column="131" />
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/auth.head.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.0">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.php">
+    <entry file="file://$PROJECT_DIR$/vendor/phpauth/phpauth/languages/en_GB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5365853">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state vertical-scroll-proportion="-16.333334">
+          <caret line="64" column="194" selection-start-line="64" selection-start-column="194" selection-end-line="64" selection-end-column="194" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7246377">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/phpauth/phpauth/Auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.2">
-          <caret line="605" column="27" selection-start-line="605" selection-start-column="20" selection-end-line="605" selection-end-column="27" />
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="930" column="29" selection-start-line="930" selection-start-column="20" selection-end-line="930" selection-end-column="29" />
           <folding>
-            <element signature="e#3251#5146#0#PHP" expanded="false" />
-            <element signature="e#5237#6305#0#PHP" expanded="false" />
-            <element signature="e#6428#7550#0#PHP" expanded="false" />
-            <element signature="e#7650#7774#0#PHP" expanded="false" />
-            <element signature="e#7900#8032#0#PHP" expanded="false" />
-            <element signature="e#8152#8421#0#PHP" expanded="false" />
-            <element signature="e#8550#9550#0#PHP" expanded="false" />
-            <element signature="e#9651#9862#0#PHP" expanded="false" />
-            <element signature="e#9953#10158#0#PHP" expanded="false" />
-            <element signature="e#10256#11294#0#PHP" expanded="false" />
-            <element signature="e#11783#12034#0#PHP" expanded="false" />
-            <element signature="e#12227#13957#0#PHP" expanded="false" />
-            <element signature="e#14073#14438#0#PHP" expanded="false" />
-            <element signature="e#15108#16786#0#PHP" expanded="false" />
-            <element signature="e#16980#20494#0#PHP" expanded="false" />
-            <element signature="e#20617#21406#0#PHP" expanded="false" />
-            <element signature="e#21489#21660#0#PHP" expanded="false" />
-            <element signature="e#21797#22076#0#PHP" expanded="false" />
-            <element signature="e#22173#23074#0#PHP" expanded="false" />
-            <element signature="e#23302#25239#0#PHP" expanded="false" />
-            <element signature="e#25359#26718#0#PHP" expanded="false" />
-            <element signature="e#26930#28797#0#PHP" expanded="false" />
-            <element signature="e#28967#30667#0#PHP" expanded="false" />
-            <element signature="e#30733#31270#0#PHP" expanded="false" />
-            <element signature="e#31377#31449#0#PHP" expanded="false" />
-            <element signature="e#31512#31850#0#PHP" expanded="false" />
-            <element signature="e#31994#32795#0#PHP" expanded="false" />
-            <element signature="e#32901#33190#0#PHP" expanded="false" />
-            <element signature="e#33247#33465#0#PHP" expanded="false" />
-            <element signature="e#33527#33675#0#PHP" expanded="false" />
-            <element signature="e#34007#34485#0#PHP" expanded="false" />
-            <marker date="1460676444951" expanded="true" signature="6036:6101" placeholder="UPDATE ${{$t... " />
-            <marker date="1460676444951" expanded="true" signature="6896:6955" placeholder="SELECT id FR... $" />
-            <marker date="1460676444951" expanded="true" signature="8218:8277" placeholder="SELECT id FR... $" />
-            <marker date="1460676444951" expanded="true" signature="9237:9353" placeholder="INSERT INTO $... " />
-            <marker date="1460676444951" expanded="true" signature="9732:9789" placeholder="DELETE FROM " />
-            <marker date="1460676444951" expanded="true" signature="10026:10084" placeholder="DELETE FROM " />
-            <marker date="1460676444951" expanded="true" signature="10585:10686" placeholder="SELECT id, u... $" />
-            <marker date="1460676444951" expanded="true" signature="11480:11542" placeholder="SELECT uid F... $" />
-            <marker date="1460676444951" expanded="true" signature="11855:11920" placeholder="SELECT count... $" />
-            <marker date="1460676444951" expanded="true" signature="12365:12415" placeholder="INSERT INTO $... " />
-            <marker date="1460676444951" expanded="true" signature="12779:12832" placeholder="DELETE FROM " />
-            <marker date="1460676444951" expanded="true" signature="13450:13553" placeholder="UPDATE ${{$t... " />
-            <marker date="1460676444951" expanded="true" signature="13732:13785" placeholder="DELETE FROM " />
-            <marker date="1460676444951" expanded="true" signature="14143:14222" placeholder="SELECT email... $" />
-            <marker date="1460676444951" expanded="true" signature="14647:14702" placeholder="SELECT * FRO... $" />
-            <marker date="1460676444951" expanded="true" signature="16064:16117" placeholder="DELETE FROM " />
-            <marker date="1460676444951" expanded="true" signature="16278:16335" placeholder="DELETE FROM " />
-            <marker date="1460676444951" expanded="true" signature="16496:16553" placeholder="DELETE FROM " />
-            <marker date="1460676444951" expanded="true" signature="17699:17780" placeholder="SELECT id, e... $" />
-            <marker date="1460676444951" expanded="true" signature="18432:18521" placeholder="INSERT INTO $... " />
-            <marker date="1460676444951" expanded="true" signature="20720:20807" placeholder="SELECT id, u... $" />
-            <marker date="1460676444951" expanded="true" signature="21560:21616" placeholder="DELETE FROM " />
-            <marker date="1460676444951" expanded="true" signature="24858:24923" placeholder="UPDATE ${{$t... " />
-            <marker date="1460676444951" expanded="true" signature="25959:26018" placeholder="SELECT id FR... $" />
-            <marker date="1460676444951" expanded="true" signature="28581:28646" placeholder="UPDATE ${{$t... " />
-            <marker date="1460676444951" expanded="true" signature="30340:30402" placeholder="UPDATE ${{$t... " />
-            <marker date="1460676444951" expanded="true" signature="30863:30928" placeholder="SELECT count... $" />
-            <marker date="1460676444951" expanded="true" signature="31704:31778" placeholder="INSERT INTO $... " />
-            <marker date="1460676444951" expanded="true" signature="32113:32169" placeholder="DELETE FROM " />
-            <marker date="1460676444951" expanded="true" signature="32261:32332" placeholder="SELECT id, e... $" />
-            <marker date="1460676444951" expanded="true" signature="32654:32710" placeholder="DELETE FROM " />
-            <marker date="1460676444951" expanded="true" signature="34114:34176" placeholder="SELECT passw... $" />
+            <element signature="e#8977#9121#0#PHP" expanded="false" />
+            <element signature="e#9263#9577#0#PHP" expanded="false" />
+            <element signature="e#9732#10888#0#PHP" expanded="false" />
+            <element signature="e#11903#13133#0#PHP" expanded="false" />
+            <element signature="e#13711#14007#0#PHP" expanded="false" />
+            <element signature="e#16430#16873#0#PHP" expanded="false" />
+            <element signature="e#17674#19580#0#PHP" expanded="false" />
+            <element signature="e#24139#25081#0#PHP" expanded="false" />
+            <element signature="e#25186#25375#0#PHP" expanded="false" />
+            <element signature="e#25534#25864#0#PHP" expanded="false" />
+            <element signature="e#25983#26983#0#PHP" expanded="false" />
+            <element signature="e#31452#33592#0#PHP" expanded="false" />
+            <element signature="e#35850#36409#0#PHP" expanded="false" />
+            <element signature="e#36516#36588#0#PHP" expanded="false" />
+            <element signature="e#36669#37025#0#PHP" expanded="false" />
+            <element signature="e#37188#38015#0#PHP" expanded="false" />
+            <element signature="e#38143#38477#0#PHP" expanded="false" />
+            <element signature="e#39376#39854#0#PHP" expanded="false" />
+            <marker date="1460729677457" expanded="true" signature="6810:6875" placeholder="UPDATE ${{$t... " />
+            <marker date="1460729677457" expanded="true" signature="7776:7835" placeholder="SELECT id FR... $" />
+            <marker date="1460729677457" expanded="true" signature="9338:9397" placeholder="SELECT id FR... $" />
+            <marker date="1460729677457" expanded="true" signature="10539:10655" placeholder="INSERT INTO $... " />
+            <marker date="1460729677457" expanded="true" signature="11101:11158" placeholder="DELETE FROM " />
+            <marker date="1460729677457" expanded="true" signature="11464:11522" placeholder="DELETE FROM " />
+            <marker date="1460729677457" expanded="true" signature="12268:12369" placeholder="SELECT id, u... $" />
+            <marker date="1460729677457" expanded="true" signature="13350:13412" placeholder="SELECT uid F... $" />
+            <marker date="1460729677457" expanded="true" signature="13792:13857" placeholder="SELECT count... $" />
+            <marker date="1460729677457" expanded="true" signature="14383:14433" placeholder="INSERT INTO $... " />
+            <marker date="1460729677457" expanded="true" signature="14875:14928" placeholder="DELETE FROM " />
+            <marker date="1460729677457" expanded="true" signature="15716:15819" placeholder="UPDATE ${{$t... " />
+            <marker date="1460729677457" expanded="true" signature="16019:16072" placeholder="DELETE FROM " />
+            <marker date="1460729677457" expanded="true" signature="16509:16588" placeholder="SELECT email... $" />
+            <marker date="1460729677457" expanded="true" signature="17112:17167" placeholder="SELECT * FRO... $" />
+            <marker date="1460729677457" expanded="true" signature="18735:18788" placeholder="DELETE FROM " />
+            <marker date="1460729677457" expanded="true" signature="18985:19042" placeholder="DELETE FROM " />
+            <marker date="1460729677457" expanded="true" signature="19239:19296" placeholder="DELETE FROM " />
+            <marker date="1460729677457" expanded="true" signature="20678:20759" placeholder="SELECT id, e... $" />
+            <marker date="1460729677457" expanded="true" signature="21555:21644" placeholder="INSERT INTO $... " />
+            <marker date="1460729677457" expanded="true" signature="24257:24344" placeholder="SELECT id, u... $" />
+            <marker date="1460729677457" expanded="true" signature="25266:25322" placeholder="DELETE FROM " />
+            <marker date="1460729677457" expanded="true" signature="29053:29118" placeholder="UPDATE ${{$t... " />
+            <marker date="1460729677457" expanded="true" signature="30296:30355" placeholder="SELECT id FR... $" />
+            <marker date="1460729677457" expanded="true" signature="33349:33414" placeholder="UPDATE ${{$t... " />
+            <marker date="1460729677457" expanded="true" signature="35382:35444" placeholder="UPDATE ${{$t... " />
+            <marker date="1460729677457" expanded="true" signature="35995:36060" placeholder="SELECT count... $" />
+            <marker date="1460729677457" expanded="true" signature="36876:36950" placeholder="INSERT INTO $... " />
+            <marker date="1460729677457" expanded="true" signature="37320:37376" placeholder="DELETE FROM " />
+            <marker date="1460729677457" expanded="true" signature="37478:37549" placeholder="SELECT id, e... $" />
+            <marker date="1460729677457" expanded="true" signature="37871:37927" placeholder="DELETE FROM " />
+            <marker date="1460729677457" expanded="true" signature="39483:39545" placeholder="SELECT passw... $" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/password_reset.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.472727">
-          <caret line="66" column="8" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="8" />
+        <state vertical-scroll-proportion="-13.0">
+          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="36.333332">
+          <caret line="26" column="128" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="128" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.0">
+          <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/activate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.666667">
+          <caret line="79" column="65" selection-start-line="79" selection-start-column="65" selection-end-line="80" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.0">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/common/nav_bar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4347826">
-          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+        <state vertical-scroll-proportion="-8.666667">
+          <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.6666665">
+          <caret line="203" column="13" selection-start-line="203" selection-start-column="13" selection-end-line="203" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/reset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3768116">
+          <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
+          <folding>
+            <element signature="n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

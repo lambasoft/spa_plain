@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-require_once(ACTIONS_PATH . "/authenticate.php");
-$authenticate = new Authenticate($auth);
 $isRegistered = false;
 if(isset($_POST['token'])){
-    $isRegistered = $authenticate->Register();
+    $isRegistered = $User->doRegister();
 }
-require_once(RESOURCES_PATH ."/views/layouts/login.head.php");
+require_once(RESOURCES_PATH ."/views/layouts/auth.head.php");
 ?>
 <body>
 <?php
@@ -22,30 +20,30 @@ require_once(RESOURCES_PATH ."/views/layouts/common/nav_bar.php");
                 <div class="panel-body">
                     <form class="form-horizontal" role="form" method="POST" action="#">
                         <input type="hidden" name="token" value="register"/>
-                        <div class="form-group <?php echo (isset($authenticate->errors['first_name'])? ' has-error': '') ?>">
+                        <div class="form-group <?php echo (isset($User->errors['first_name'])? ' has-error': '') ?>">
                             <label class="col-md-4 control-label">First Name</label>
                             <div class="col-md-6">
-                                <input type="text" class="form-control" name="first_name" value="<?php echo $authenticate->old("first_name"); ?>">
+                                <input type="text" class="form-control" name="first_name" value="<?php echo $User->old("first_name"); ?>">
                                 <?php
-                                if (isset($authenticate->errors['first_name'])){
+                                if (isset($User->errors['first_name'])){
                                     ?>
                                     <span class="help-block">
-                                        <strong><?php echo $authenticate->errors['first_name'];?></strong>
+                                        <strong><?php echo $User->errors['first_name'];?></strong>
                                     </span>
                                     <?php
                                 }
                                 ?>
                             </div>
                         </div>
-                        <div class="form-group <?php echo (isset($authenticate->errors['last_name'])? ' has-error': '') ?>">
+                        <div class="form-group <?php echo (isset($User->errors['last_name'])? ' has-error': '') ?>">
                             <label class="col-md-4 control-label">Last Name</label>
                             <div class="col-md-6">
-                                <input type="text" class="form-control" name="last_name" value="<?php echo $authenticate->old("last_name"); ?>">
+                                <input type="text" class="form-control" name="last_name" value="<?php echo $User->old("last_name"); ?>">
                                 <?php
-                                if (isset($authenticate->errors['last_name'])){
+                                if (isset($User->errors['last_name'])){
                                     ?>
                                     <span class="help-block">
-                                        <strong><?php echo $authenticate->errors['last_name'];?></strong>
+                                        <strong><?php echo $User->errors['last_name'];?></strong>
                                     </span>
                                     <?php
                                 }
@@ -53,16 +51,16 @@ require_once(RESOURCES_PATH ."/views/layouts/common/nav_bar.php");
                             </div>
                         </div>
 
-                        <div class="form-group <?php echo (isset($authenticate->errors['email'])? ' has-error': '') ?>">
+                        <div class="form-group <?php echo (isset($User->errors['email'])? ' has-error': '') ?>">
                             <label class="col-md-4 control-label">E-Mail Address</label>
 
                             <div class="col-md-6">
-                                <input type="email" class="form-control" name="email" value="<?php echo $authenticate->old("email"); ?>">
+                                <input type="email" class="form-control" name="email" value="<?php echo $User->old("email"); ?>">
                                 <?php
-                                if (isset($authenticate->errors['email'])){
+                                if (isset($User->errors['email'])){
                                     ?>
                                     <span class="help-block">
-                                        <strong><?php echo $authenticate->errors['email'];?></strong>
+                                        <strong><?php echo $User->errors['email'];?></strong>
                                     </span>
                                     <?php
                                 }
@@ -70,16 +68,16 @@ require_once(RESOURCES_PATH ."/views/layouts/common/nav_bar.php");
                             </div>
                         </div>
 
-                        <div class="form-group <?php echo (isset($authenticate->errors['password'])? ' has-error': '') ?>">
+                        <div class="form-group <?php echo (isset($User->errors['password'])? ' has-error': '') ?>">
                             <label class="col-md-4 control-label">Password</label>
 
                             <div class="col-md-6">
                                 <input type="password" class="form-control" name="password">
                                 <?php
-                                if (isset($authenticate->errors['password'])){
+                                if (isset($User->errors['password'])){
                                     ?>
                                     <span class="help-block">
-                                        <strong><?php echo $authenticate->errors['password'];?></strong>
+                                        <strong><?php echo $User->errors['password'];?></strong>
                                     </span>
                                     <?php
                                 }
@@ -87,16 +85,16 @@ require_once(RESOURCES_PATH ."/views/layouts/common/nav_bar.php");
                             </div>
                         </div>
 
-                        <div class="form-group <?php echo (isset($authenticate->errors['password_confirmation'])? ' has-error': '') ?>">
+                        <div class="form-group <?php echo (isset($User->errors['password_confirmation'])? ' has-error': '') ?>">
                             <label class="col-md-4 control-label">Confirm Password</label>
 
                             <div class="col-md-6">
                                 <input type="password" class="form-control" name="password_confirmation">
                                 <?php
-                                if (isset($authenticate->errors['password_confirmation'])){
+                                if (isset($User->errors['password_confirmation'])){
                                     ?>
                                     <span class="help-block">
-                                        <strong><?php echo $authenticate->errors['password_confirmation'];?></strong>
+                                        <strong><?php echo $User->errors['password_confirmation'];?></strong>
                                     </span>
                                     <?php
                                 }
@@ -104,14 +102,14 @@ require_once(RESOURCES_PATH ."/views/layouts/common/nav_bar.php");
                             </div>
                         </div>
 
-                        <div class="form-group <?php echo (isset($authenticate->errors['error'])? ' has-error': '') ?>">
+                        <div class="form-group <?php echo (isset($User->errors['error'])? ' has-error': '') ?>">
 
                             <div class="col-md-6 col-md-offset-4">
                                 <?php
-                                if (isset($authenticate->errors['error'])){
+                                if (isset($User->errors['error'])){
                                     ?>
                                     <span class="help-block">
-                                        <strong><?php echo $authenticate->errors['error'];?></strong>
+                                        <strong><?php echo $User->errors['error'];?></strong>
                                     </span>
                                     <?php
                                 }
@@ -134,10 +132,10 @@ require_once(RESOURCES_PATH ."/views/layouts/common/nav_bar.php");
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <?php
-if($isRegistered && empty($authenticate->errors)){
+if($isRegistered && empty($User->errors)){
     ?>
-    <script src="<?php echo PLUGINS_PATH . "/sweetalert";?>/dist/sweetalert.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="<?php echo PLUGINS_PATH . "/sweetalert";?>/dist/sweetalert.css">
+    <script src="/<?php echo WEB_PATH . "/" .  PLUGINS_PATH . "/sweetalert";?>/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/<?php  echo WEB_PATH . "/" .  PLUGINS_PATH . "/sweetalert";?>/dist/sweetalert.css">
     <script>
         swal("Successfully Registered", "Please verify your email to continue.", "success");
         setTimeout(function(){ window.location = "login"; }, 3000);
