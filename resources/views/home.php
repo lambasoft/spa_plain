@@ -2,13 +2,14 @@
 <html lang="en">
 <?php
 include("layouts/home.head.php");
+include("layouts/common/nav_bar.php");
 ?>
 
 <body id="app-layout">
 
 <!-- Header -->
 <?php
-include("layouts/home.header.php");
+//include("layouts/home.header.php");
 ?>
 
 

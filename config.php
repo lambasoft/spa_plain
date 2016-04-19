@@ -10,7 +10,7 @@ require_once 'functions.php';
 require_once 'actions/User.php';
 
 $errors = "";
-$config = array(
+$configs = array(
     "db" => array(
         "local" => array(
             "dbname" => "spa_plain",
@@ -42,13 +42,13 @@ $config = array(
     Creating constants for heavily used paths makes things a lot easier.
     ex. require_once(LIBRARY_PATH . "Paginator.php")
 */
-$paths = explode($config['urls']['mainDir'],dirname(__FILE__));
-defined("WEB_PATH") or define("WEB_PATH", $config['urls']['mainDir'] .  $paths[1]  );
+$paths = explode($configs['urls']['mainDir'],dirname(__FILE__));
+defined("WEB_PATH") or define("WEB_PATH", $configs['urls']['mainDir'] .  $paths[1]  );
 defined("RESOURCES_PATH") or define("RESOURCES_PATH", "resources");
 defined("ACTIONS_PATH") or define("ACTIONS_PATH", "actions");
-defined("STYLES_PATH") or define("STYLES_PATH", $config['paths']['resources']['css']);
+defined("STYLES_PATH") or define("STYLES_PATH", $configs['paths']['resources']['css']);
 defined("PLUGINS_PATH") or define("PLUGINS_PATH", "plugins");
-defined("BOOTSTRAP_PATH") or define("BOOTSTRAP_PATH",  $config['paths']['resources']['bootstrap']);
+defined("BOOTSTRAP_PATH") or define("BOOTSTRAP_PATH",  $configs['paths']['resources']['bootstrap']);
 
 /*
     Error reporting.
@@ -56,7 +56,7 @@ defined("BOOTSTRAP_PATH") or define("BOOTSTRAP_PATH",  $config['paths']['resourc
 ini_set("error_reporting", "true");
 error_reporting(E_ALL|E_STRCT);
 
-$db = $config['db']['local'];
+$db = $configs['db']['local'];
 
 $dbh = new PDO(sprintf("mysql:host=%s;dbname=%s",$db['host'],$db['dbname']), $db['username'], $db['password']);
 

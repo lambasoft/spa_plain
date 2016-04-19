@@ -12,15 +12,21 @@
 
             <!-- Branding Image -->
             <a class="navbar-brand" href="/<?PHP echo WEB_PATH;  ?>/home">
-                Spa Advisor
+                <img class="logo" src="resources/assets/logo.png" alt="Spa Advisor">
             </a>
         </div>
 
         <div class="collapse navbar-collapse" id="app-navbar-collapse">
-            <!-- Left Side Of Navbar -->
-            <ul class="nav navbar-nav">
-                <li><a href="/<?PHP echo WEB_PATH;  ?>/home">Home</a></li>
-            </ul>
+            <?php
+            if($page != "home"){
+                ?>
+                <!-- Left Side Of Navbar -->
+                <ul class="nav navbar-nav">
+                    <li><a href="/<?PHP echo WEB_PATH;  ?>/home">Home</a></li>
+                </ul>
+                <?php
+            }
+            ?>
 
             <!-- Right Side Of Navbar -->
             <ul class="nav navbar-nav navbar-right">
