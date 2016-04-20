@@ -20,7 +20,7 @@ $configs = array(
         )
     ),
     "urls" => array(
-        "mainDir" => "spa_plain",
+        "mainDir" => "/spa_plain",
         "baseUrl" => "http://localhost/"
     ),
     "paths" => array(
@@ -35,8 +35,12 @@ $configs = array(
             "content" => $_SERVER["DOCUMENT_ROOT"] . "/images/content",
             "layout" => $_SERVER["DOCUMENT_ROOT"] . "/images/layout"
         )
-    )
+    ),
+    "redirectOnNotFound" => "/home"
 );
+
+
+
 
 /*
     Creating constants for heavily used paths makes things a lot easier.
@@ -45,6 +49,7 @@ $configs = array(
 $paths = explode($configs['urls']['mainDir'],dirname(__FILE__));
 defined("WEB_PATH") or define("WEB_PATH", $configs['urls']['mainDir'] .  $paths[1]  );
 defined("RESOURCES_PATH") or define("RESOURCES_PATH", "resources");
+defined("VIEWS_PATH") or define("VIEWS_PATH",  "views");
 defined("ACTIONS_PATH") or define("ACTIONS_PATH", "actions");
 defined("STYLES_PATH") or define("STYLES_PATH", $configs['paths']['resources']['css']);
 defined("PLUGINS_PATH") or define("PLUGINS_PATH", "plugins");

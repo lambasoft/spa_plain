@@ -10,10 +10,10 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel='stylesheet' type='text/css'>
 
     <!-- Plugins -->
-    <link href="/<?php echo WEB_PATH . "/" .  BOOTSTRAP_PATH; ?>/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo WEB_PATH . "/" .  BOOTSTRAP_PATH; ?>/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/<?php echo WEB_PATH . "/" .  STYLES_PATH; ?>/style.css" rel="stylesheet">
+    <link href="<?php echo WEB_PATH . "/" .  STYLES_PATH; ?>/style.css" rel="stylesheet">
 
     <style>
         .fa-btn {

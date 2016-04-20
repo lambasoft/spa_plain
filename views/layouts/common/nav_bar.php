@@ -11,8 +11,8 @@
             </button>
 
             <!-- Branding Image -->
-            <a class="navbar-brand" href="/<?PHP echo WEB_PATH;  ?>/home">
-                <img class="logo" src="resources/assets/logo.png" alt="Spa Advisor">
+            <a class="navbar-brand" href="<?PHP echo WEB_PATH;  ?>/home">
+                <img class="logo" src="<?PHP echo WEB_PATH;  ?>/resources/assets/logo.png" alt="Spa Advisor">
             </a>
         </div>
 
@@ -22,7 +22,7 @@
                 ?>
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
-                    <li><a href="/<?PHP echo WEB_PATH;  ?>/home">Home</a></li>
+                    <li><a href="<?PHP echo WEB_PATH;  ?>/home">Home</a></li>
                 </ul>
                 <?php
             }
@@ -47,8 +47,8 @@
                     <?php
                 }else{
                     ?>
-                    <li><a href="/<?PHP echo WEB_PATH;  ?>/login">Login</a></li>
-                    <li><a href="/<?PHP echo WEB_PATH;  ?>/register">Register</a></li>
+                    <li><a href="<?PHP echo WEB_PATH;  ?>/login">Login</a></li>
+                    <li><a href="<?PHP echo WEB_PATH;  ?>/register">Register</a></li>
                     <?php
                 }
                 ?>

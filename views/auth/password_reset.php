@@ -5,11 +5,11 @@ $isReset = false;
 if(isset($_POST['token'])){
     $isReset = $User->doResetPassword();
 }
-require_once(RESOURCES_PATH. "/views/layouts/auth.head.php");
+require_once(VIEWS_PATH . "/layouts/auth.head.php");
 ?>
 <body>
 <?php
-require_once(RESOURCES_PATH ."/views/layouts/common/nav_bar.php");
+require_once(VIEWS_PATH ."/layouts/common/nav_bar.php");
 ?>
 <div class="container">
     <div class="row">

@@ -7,34 +7,57 @@
  */
 require_once("config.php");
 
+$directory = "/";
 $page = "home";
-if(isset($_GET['page'])){
-    switch($_GET['page']){
-        case "home":
-            $page = "home";
-            break;
-        case "login":
-            $page = "auth/login";
-            break;
-        case "logout":
-            $page = "auth/logout";
-            break;
-        case "register":
-            $page = "auth/register";
-            break;
-        case "activate":
-            $page = "auth/activate";
-            break;
-        case "password_reset":
-            $page = "auth/password_reset";
-            break;
-        case "reset":
-            $page = "auth/reset";
-            break;
-    }
 
+$dirs = array(
+    "/" => array(
+        "home" => array(
+            "path" => "home",
+        ),
+        "login" => array(
+            "path" => "auth/login"
+        ),
+        "logout" => array(
+            "path" => "auth/logout"
+        ),
+        "register" => array(
+            "path" => "auth/register"
+        ),
+        "activate" => array(
+            "path" => "auth/activate"
+        ),
+        "password_reset" => array(
+            "path" => "auth/password_reset"
+        ),
+        "reset" => array(
+            "path" => "auth/reset"
+        )
+    ),
+    "account" => array(
+        "create_spa" => array(
+            "path" => "create_spa"
+        )
+    )
+);
+
+
+if(isset($_GET['directory'])){
+    if(isset($dirs[$_GET['directory']])){
+        $directory = $_GET['directory'];
+    }elseif(isset($configs['redirectOnNotFound'])){
+        RedirectToURL(WEB_PATH . $configs['redirectOnNotFound']);
+    }
 }
 
-include(RESOURCES_PATH . "/views/" . $page . ".php") ;
+if(isset($_GET['page']) && isset($dirs[$directory][$_GET['page']])){
+    $page = $_GET['page'];
+    $path = $dirs[$directory][$_GET['page']]['path'];
+}elseif(isset($configs['redirectOnNotFound'])){
+    RedirectToURL(WEB_PATH . $configs['redirectOnNotFound']);
+}
+
+include(VIEWS_PATH . "/" . $directory . "/" . $path . ".php") ;
+
 
 
