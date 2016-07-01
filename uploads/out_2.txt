@@ -1,0 +1,8 @@
+Script started on Sun 17 Apr 2016 02:37:50 AM EEST
+]0;lambasoft@Lambas: /opt/metasploit-frameworklambasoft@Lambas:/opt/metasploit-framework$ script -f out.txt cd /opt/metasploit-framework/[18Pmsfconsole 
+rbenv: version `2.1.8' is not installed (set by /opt/metasploit-framework/.ruby-version)
+]0;lambasoft@Lambas: /opt/metasploit-frameworklambasoft@Lambas:/opt/metasploit-framework$ msfconsole 
+rbenv: version `2.1.8' is not installed (set by /opt/metasploit-framework/.ruby-version)
+]0;lambasoft@Lambas: /opt/metasploit-frameworklambasoft@Lambas:/opt/metasploit-framework$ msfconsole 
+rbenv: version `2.1.8' is not installed (set by /opt/metasploit-framework/.ruby-version)
+]0;lambasoft@Lambas: /opt/metasploit-frameworklambasoft@Lambas:/opt/metasploit-framework$ 

@@ -71,8 +71,8 @@ require_once(VIEWS_PATH ."/layouts/common/nav_bar.php");
 <?php
 if($isReset && empty($User->errors)){
     ?>
-    <script src="/<?php echo WEB_PATH . "/" .  PLUGINS_PATH . "/sweetalert";?>/dist/sweetalert.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/<?php  echo WEB_PATH . "/" .  PLUGINS_PATH . "/sweetalert";?>/dist/sweetalert.css">
+    <script src="<?php echo WEB_PATH . "/" .  PLUGINS_PATH . "/sweetalert";?>/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="<?php  echo WEB_PATH . "/" .  PLUGINS_PATH . "/sweetalert";?>/dist/sweetalert.css">
     <script>
         swal("We have sent you an Email!", "Check your email", "success");
         //setTimeout(function(){ window.location = "home"; }, 3000);

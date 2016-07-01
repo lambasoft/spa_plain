@@ -1,110 +1,248 @@
 body{
-    background: url("../assets/background.jpeg");
-    background-size: cover;
+  background: url("../assets/background.jpeg");
+  background-size: cover;
+}
+/* centered columns styles */
+.row-centered {
+  text-align:center;
+}
+.col-centered {
+  display:inline-block;
+  float:none;
+  /* inline-block space fix */
+  margin-right:-4px;
 }
 
 .colored-green {
-    color: #1DA072;
+  color: #1DA072;
 }
 .colored-black {
-    color: #313131;
+  color: #313131;
 }
 .colored-red {
-    color: #DA4444;
+  color: #DA4444;
 }
 .colored-maroon {
-    color: #B77935;
+  color: #B77935;
 }
 .colored-yellow {
-    color: #C7D611;
+  color: #C7D611;
 }
 .colored-gray {
-    color: #797979;
+  color: #797979;
 }
 .colored-blue {
-    color: #3A4FBF;
+  color: #3A4FBF;
 }
 .colored-purple {
-    color: #753A98;
+  color: #753A98;
 }
 .colored-pink {
-    color: #96034C;
+  color: #96034C;
 }
 .colored-white {
-    color: #fff;
+  color: #fff;
 }
 
 
 
 #app-layout header{
-    background: none;
+  background: none;
 }
 
 
 #app-layout h1,#app-layout .h1,#app-layout h2,#app-layout .h2,#app-layout h3,#app-layout .h3,#app-layout h4, #app-layout.h4,#app-layout h5,#app-layout .h5{
-    color: #fff;
+  color: #fff;
 }
 
 .navbar-brand{
-    padding-top: 0px;
+  padding-top: 0px;
 }
 
 .navbar-brand .logo{
-    max-width: 170px;
+  max-width: 170px;
 }
 
 /*PAGES*/
 .pages-container{
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
 .pages{
-    background-color: rgba(255,255,255,0.2);
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 10px;
+  background-color: rgba(255,255,255,0.2);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
 }
 .single-page{
-    cursor: pointer;
-    padding: 5px 5px 5px 5px;
-    margin: 0 0 30px 0;
-    border-left: 4px solid #55AA00;
-    border-right: 4px solid #55AA00;
-    border-radius: 35px;
-    -webkit-transition: all ease 0.55s;
-    transition: all ease 0.55s;
-    line-height: 150px;
-    text-align: center;
+  max-width: 70%;
+  cursor: pointer;
+  padding: 5px 5px 5px 5px;
+  margin: 0 0 30px 25px;
+  border-left: 4px solid #55AA00;
+  border-right: 4px solid #55AA00;
+  border-radius: 35px;
+  -webkit-transition: all ease 0.55s;
+  transition: all ease 0.55s;
+  line-height: 100px;
+  text-align: center;
 }
 .single-page:hover{
-    background-color: #55AA00;
+  background-color: #55AA00;
 }
 .single-page .page-icon {
-    font-size: 3em;
-    margin-bottom: 0px;
+  font-size: 3em;
+  margin-bottom: 0px;
 }
 .single-page h3{
-    font-weight: bold;
-    font-size: 30px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 5px;
 
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
 }
 
 
 /*BANNER*/
 .banner{
-    cursor: pointer;
-    text-align: center;
-    border-radius: 35px;
-    border: 2px solid white;
-    padding: 10px;
-    min-height: 360px;
-    -webkit-transition: all ease 0.55s;
-    transition: all ease 0.55s;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 35px;
+  border: 2px solid white;
+  padding: 10px;
+  min-height: 360px;
+  -webkit-transition: all ease 0.55s;
+  transition: all ease 0.55s;
 }
+
+
+/*ITEMS*/
+.container .items a{
+  cursor: pointer;
+}
+.container .items hr{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container .items .object_item{
+  margin: 5px;
+  padding: 20px;
+  border: 1px solid green;
+}
+.container .items .object_item img{
+  max-width: 100%;
+}
+
+.container .items .obj_name{
+  font-size: 1.1em;
+  line-height: 1em;
+  color: #1b75bc;
+  font-family: "MuseoSans-500",arial,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.panel .panel-body {
+  padding-bottom: 50px;
+}
+
+.gateway img{
+  width: 100%;
+  max-height: 300px;
+}
+
+.gateway_tabs{
+  margin: 20px;
+}
+
+.gateway_tabs .tab-content h3{
+  font-family: 'MuseoSans-500',arial,sans-serif;
+  font-weight: normal;
+}
+.gateway_tabs .tab-content a{
+  cursor: pointer;
+}
+.gateway_tabs .tab-content .reviews{
+  font-family: 'MuseoSans-500',arial,sans-serif;
+  font-weight: normal;
+  margin-left: 10px;
+  line-height: 19px;
+}
+
+.gateway_tabs .tab-content .desc{
+  margin-top: 20px;
+}
+.gateway_tabs .tab-content .address{
+  margin-top: 20px;
+}
+
+.gateway_tabs .tab-content h3 span{
+  color: gray;
+}
+
+/*
+    Ratings Stars
+    */
+
+    .rating { 
+      border: none;
+      float: left;
+    }
+
+    .rating > input { display: none; } 
+    .rating > label:before { 
+      margin: 5px;
+      font-size: 1.25em;
+      font-family: FontAwesome;
+      display: inline-block;
+      content: "\f005";
+    }
+
+    .rating > .half:before { 
+      content: "\f089";
+      position: absolute;
+    }
+
+    .rating > label { 
+      color: #ddd; 
+      float: right; 
+    }
+
+    /***** CSS Magic to Highlight Stars on Hover *****/
+
+    .rating > input:checked ~ label, /* show gold star when clicked */
+    .rating:not(:checked) > label:hover, /* hover current star */
+    .rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+    .rating > input:checked + label:hover, /* hover current star when changing rating */
+    .rating > input:checked ~ label:hover,
+    .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+    .rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+
+
+    /*REVIEWS*/
+    .review ul{
+      list-style-type: none;
+    }
+
+    .review .first{
+      line-height: 2.5em;
+      margin-right: 12px;
+    }
+
+    .review h3{
+      color: #697277;
+      border-bottom: 1px solid #f0f0f0;
+      padding: 0 0 10px;
+    }

@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a6de16-18a4-4d21-b3aa-ccee5314e10d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/account/create_spa.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/auth/activate.php" afterPath="$PROJECT_DIR$/views/auth/activate.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/auth/login.php" afterPath="$PROJECT_DIR$/views/auth/login.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/auth/logout.php" afterPath="$PROJECT_DIR$/views/auth/logout.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/auth/password_reset.php" afterPath="$PROJECT_DIR$/views/auth/password_reset.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/auth/register.php" afterPath="$PROJECT_DIR$/views/auth/register.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/auth/reset.php" afterPath="$PROJECT_DIR$/views/auth/reset.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/home.php" afterPath="$PROJECT_DIR$/views/home.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/layouts/auth.head.php" afterPath="$PROJECT_DIR$/views/layouts/auth.head.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/layouts/common/nav_bar.php" afterPath="$PROJECT_DIR$/views/layouts/common/nav_bar.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/layouts/home.footer.php" afterPath="$PROJECT_DIR$/views/layouts/home.footer.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/layouts/home.head.php" afterPath="$PROJECT_DIR$/views/layouts/home.head.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/layouts/home.header.php" afterPath="$PROJECT_DIR$/views/layouts/home.header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/logo.png" afterPath="$PROJECT_DIR$/resources/assets/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/style.css" afterPath="$PROJECT_DIR$/resources/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/auth/reset.php" afterPath="$PROJECT_DIR$/views/auth/reset.php" />
     </list>
     <ignored path="spa_plain.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,6 +26,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="reset.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/auth/reset.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-67.333336">
+              <caret line="101" column="49" selection-start-line="101" selection-start-column="49" selection-end-line="101" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,11 +56,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3043478">
+              <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="create_spa.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/account/create_spa.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-3.3333333">
               <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.6666667">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -93,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/actions/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36231884">
+            <state vertical-scroll-proportion="-8.333333">
               <caret line="228" column="37" selection-start-line="228" selection-start-column="35" selection-end-line="228" selection-end-column="37" />
               <folding />
             </state>
@@ -116,7 +129,6 @@
         <option value="$PROJECT_DIR$/pages/home.php" />
         <option value="$PROJECT_DIR$/views/layouts/home.header.php" />
         <option value="$PROJECT_DIR$/views/layouts/home.footer.php" />
-        <option value="$PROJECT_DIR$/views/home.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/views/layouts/common/navbar.php" />
         <option value="$PROJECT_DIR$/views/layouts/home.head.php" />
@@ -137,18 +149,19 @@
         <option value="$PROJECT_DIR$/resources/views/auth/reset.php" />
         <option value="$PROJECT_DIR$/resources/views/home.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/common/nav_bar.php" />
-        <option value="$PROJECT_DIR$/resources/css/style.css" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/views/auth/login.php" />
         <option value="$PROJECT_DIR$/views/layouts/auth.head.php" />
         <option value="$PROJECT_DIR$/views/auth/register.php" />
-        <option value="$PROJECT_DIR$/views/auth/reset.php" />
         <option value="$PROJECT_DIR$/views/auth/password_reset.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/views/layouts/common/nav_bar.php" />
         <option value="$PROJECT_DIR$/views/account/create_spa.php" />
+        <option value="$PROJECT_DIR$/views/auth/reset.php" />
+        <option value="$PROJECT_DIR$/views/home.php" />
+        <option value="$PROJECT_DIR$/resources/css/style.css" />
       </list>
     </option>
   </component>
@@ -309,6 +322,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa_plain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spa_plain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -762,22 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1884058">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -830,14 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.3333335">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/auth/reset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -900,8 +907,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/actions/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36231884">
+        <state vertical-scroll-proportion="-8.333333">
           <caret line="228" column="37" selection-start-line="228" selection-start-column="35" selection-end-line="228" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/auth/reset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-67.333336">
+          <caret line="101" column="49" selection-start-line="101" selection-start-column="49" selection-end-line="101" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6666667">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3043478">
+          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
           <folding />
         </state>
       </provider>

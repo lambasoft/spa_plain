@@ -11,5 +11,6 @@
 RewriteEngine On    # Turn on the rewriting engine
 RewriteRule    ^([A-z]+)?$    index.php?page=$1    [NC,L]
 RewriteRule    ^([A-z]+)/([A-z]+)?$    index.php?directory=$1&page=$2    [NC,L]
+RewriteRule    ^spa/([0-9-]+)/?$    index.php?page=spa&id=$1    [NC,L]
 RewriteRule    ^activate/code/([A-Za-z0-9-]+)/?$    index.php?page=activate&code=$1    [NC,L]
 RewriteRule    ^reset/code/([A-Za-z0-9-]+)/?$    index.php?page=reset&code=$1    [NC,L]

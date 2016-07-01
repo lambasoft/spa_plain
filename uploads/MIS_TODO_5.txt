@@ -1,0 +1,22 @@
+More intense competition at the global scale ( a lot of comeptiion )
+Recognition of the value in data sources ( finding product would be sold the most at a certain time to a certain group of people )
+Quality data 
+
+Type of Patterns ( Prediction , Cluster , Association )
+
+Classification: Is a method that put the data into categories or classes that are known.
+
+Regression:
+Clustering:
+Association:
+
+
+/!\ Data in Data mining - 9
+
+/!\ What Does DM Do ? - 13
+
+/!\ Data Mining Applications  19
+
+/!\ Singular-value decomposition - 291 book
+
+

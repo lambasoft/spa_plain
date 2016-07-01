@@ -18,14 +18,18 @@
 
         <div class="collapse navbar-collapse" id="app-navbar-collapse">
             <?php
-            if($page != "home"){
+            // if($page != "home"){
                 ?>
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
                     <li><a href="<?PHP echo WEB_PATH;  ?>/home">Home</a></li>
+                    <li><a href="<?PHP echo WEB_PATH;  ?>/account/create_spa">Create Spa</a></li>
+                    <li><a href="<?PHP echo WEB_PATH;  ?>/account/create_gym">Create Gym</a></li>
+                    <li><a href="<?PHP echo WEB_PATH;  ?>/spas">View Spas</a></li>
+                    <li><a href="<?PHP echo WEB_PATH;  ?>/gyms">View Gyms</a></li>
                 </ul>
                 <?php
-            }
+            // }
             ?>
 
             <!-- Right Side Of Navbar -->
@@ -41,7 +45,8 @@
                         </a>
 
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="logout"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
+                            <li><a href="<?PHP echo WEB_PATH;  ?>/account/"><i class="fa fa-btn fa-user"></i>Account</a></li>
+                            <li><a href="<?PHP echo WEB_PATH;  ?>/logout"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
                         </ul>
                     </li>
                     <?php

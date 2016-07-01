@@ -1,6 +1,10 @@
 {
-    "require": {
-        "phpauth/phpauth": "^1.1",
-        "twbs/bootstrap": "^3.3"
-    }
+	"require": {
+		"phpauth/phpauth": "^1.1",
+		"twbs/bootstrap": "^3.3",
+		"catfan/Medoo": "^1.0",
+		"respect/validation": "^1.1",
+		"samayo/bulletproof": "2.0.*",
+		"verot/class.upload.php": "dev-master"
+	}
 }

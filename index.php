@@ -13,33 +13,45 @@ $page = "home";
 $dirs = array(
     "/" => array(
         "home" => array(
-            "path" => "home",
-        ),
+            "path" => "home"
+            ),
+        "spas" => array(
+            "path" => "spas"
+            ),
         "login" => array(
             "path" => "auth/login"
-        ),
+            ),
         "logout" => array(
             "path" => "auth/logout"
-        ),
+            ),
         "register" => array(
             "path" => "auth/register"
-        ),
+            ),
         "activate" => array(
             "path" => "auth/activate"
-        ),
+            ),
         "password_reset" => array(
             "path" => "auth/password_reset"
-        ),
+            ),
         "reset" => array(
             "path" => "auth/reset"
-        )
-    ),
+            ),
+        "spa" => array(
+            "path" => "spa"
+            )
+        ),
     "account" => array(
         "create_spa" => array(
             "path" => "create_spa"
+            ),
+        "create_gym" => array(
+            "path" => "create_gym"
+            ),
+        "" => array(
+            "path" => "index"
+            )
         )
-    )
-);
+    );
 
 
 if(isset($_GET['directory'])){

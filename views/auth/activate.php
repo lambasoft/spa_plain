@@ -6,11 +6,11 @@ $User->parseActivate();
 if(isset($_POST['token'])){
     $isActivated = $User->doActivate();
 }
-require_once(RESOURCES_PATH. "/views/layouts/auth.head.php");
+require_once(VIEWS_PATH. "/layouts/auth.head.php");
 ?>
 <body>
 <?php
-require_once(RESOURCES_PATH ."/views/layouts/common/nav_bar.php");
+require_once(VIEWS_PATH ."/layouts/common/nav_bar.php");
 ?>
 
 <div class="container">
@@ -74,11 +74,11 @@ require_once(RESOURCES_PATH ."/views/layouts/common/nav_bar.php");
 <?php
 if($isActivated && empty($User->errors)){
     ?>
-    <script src="/<?php echo WEB_PATH . "/" .  PLUGINS_PATH . "/sweetalert";?>/dist/sweetalert.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/<?php  echo WEB_PATH . "/" .  PLUGINS_PATH . "/sweetalert";?>/dist/sweetalert.css">
+    <script src="<?php echo WEB_PATH . "/" .  PLUGINS_PATH . "/sweetalert";?>/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="<?php  echo WEB_PATH . "/" .  PLUGINS_PATH . "/sweetalert";?>/dist/sweetalert.css">
     <script>
         swal("You may now Login!", "Redirecting....", "success");
-        setTimeout(function(){ window.location = "/<?PHP echo WEB_PATH;  ?>/login"; }, 3000);
+        setTimeout(function(){ window.location = "<?PHP echo WEB_PATH;  ?>/login"; }, 3000);
     </script>
     <?php
 }
