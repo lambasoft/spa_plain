@@ -1,0 +1,272 @@
+<?php
+
+require_once("config.php");
+use Respect\Validation\Validator as v;
+
+//Spa Class
+//Requires: Medoo Framework
+//Requires: Respect\Validation\Validator
+Class Spa{
+	
+	var $errors = array();
+	var $columns = array(
+		"create" => array(
+			"name" => array(
+				"required" => true,
+				"input_label_text" => "Name"
+				),
+			"logo" => array(
+				"required" => false
+				),
+			"address" => array(
+				"required" => true
+				),
+			"files" => array(
+				"type" => "multi_upload",
+				"count" => "2",
+				"required" => false,
+				"input_type" => "file"
+				),
+			"manager_name" => array(
+				"required" => true,
+				"input_label_text" => "Manager's Name"
+				),
+			"manager_type" => array(
+				"required" => true,
+				"input_label_text" => "Manager's Type"
+				),
+			"opening_hours" => array(
+				"required" => true,
+				"input_type" => "div",
+				"input_class" => "row",
+				"input_style" => "margin-left: 10px;",
+				"input_id" => "businessHoursContainer"
+				),
+			"openingHours" => array(
+				"required" => false,
+				"input_type" => "hidden",
+				"input_name" => "opening_hours",
+				"input_id" => "openingHours"
+				),
+			"size" => array(
+				"required" => true,
+				"validation" => ["regex" => "/^[0-9]+$/"],
+				"validation_error" => "This input should be a number"
+				),
+			"open_year" => array(
+				"required" => true,
+				"validation" => ["regex" => "/^[0-9]+$/"],
+				"validation_error" => "This input should be a number"
+				),
+			"treatment_rooms" => array(
+				"required" => true,
+				"validation" => ["regex" => "/^[0-9]+$/"],
+				"validation_error" => "This input should be a number"
+				),
+			"retail_products" => array(
+				"required" => true,
+				"validation" => ["regex" => "/^[0-9]+$/"],
+				"validation_error" => "This input should be a number"
+				),
+			"prof_products" => array(
+				"required" => true,
+				"validation" => ["regex" => "/^[0-9]+$/"],
+				"validation_error" => "This input should be a number"
+				),
+			"description" => array(
+				"input_type" => "textarea",
+				"required" => true
+				),
+			"link_user_id" => array(
+				"input_type" => "hidden"
+				)
+			),
+		"login" => array(
+			"email" => array(
+				"required" => true,
+				"validation" => ["filter" => FILTER_VALIDATE_EMAIL]
+				),
+			"password" => array(
+				"required" => true
+				)
+			),
+		"review" => array(
+			"link_user_id" => array(
+				"required" => true,
+				"validation" => ["regex" => "/^[0-9]+$/"]
+				),
+			"rating" => array(
+				"required" => true,
+				"validation" => ["regex" => "/^[0-9]+(\.[0-9]{1,2})?$/"] //Decimal
+				),
+			"title" => array(
+				"required" => true
+				),
+			"description" => array(
+				"required" => true
+				)
+			)
+		);
+
+
+	function test($data){
+		$userValidator = v::optional(v::key('name', v::stringType()->length(1,32)));
+
+		return $userValidator->validate($data); // true
+	}
+
+
+	function Spa($DB, $id = NULL){
+		if($DB instanceof Medoo){
+			$this->DB = $DB;
+		}
+
+		if(isset($id)){
+			if(count($this->DB->select("spa","id",["id" => $id])) > 0){
+				$this->id = (int)$id;
+			}else{
+				$this->errors['error'] = "Spa Not Found";
+			}
+		}
+	}
+
+	function getAll(){
+		return $this->DB->select("spa","*",["LIMIT" => 10 ]);
+	}
+
+	function getReviewsCount(){
+		return $this->DB->count("reviews", ["AND" => ["link_id" => $this->id, "type" => "spa"]]);
+	}
+
+	function getReviewsAvg(){
+		return $this->DB->avg("reviews", "rating",["AND" => ["link_id" => $this->id, "type" => "spa"]] );
+	}
+
+	function getReviews(){
+		return $this->DB->select("reviews","*",[ "AND" => ["link_id" => $this->id, "type" => "spa"], "LIMIT" => 10 ]);
+	}
+
+	function getID($id = NULL){
+		if(!isset($id) && isset($this->id)){
+			$id = $this->id;
+		}
+		$results = $this->DB->select("spa","*",["id" => $id, "LIMIT" => 1]);
+		return reset($results);
+	}
+	
+	private function validate(&$data,$action){
+		$data = array_intersect_key($data,$this->columns[$action]);
+		foreach($this->columns[$action] as $column=>$info){
+			if(isset($info['required']) && $info['required'] == true){
+				if(!isset($data[$column]) || empty($data[$column])){
+					$this->errors[$column] = ucwords(strtolower(str_replace("_"," ",$column))) . " is required!";
+					continue;
+				}
+			}
+
+			if(isset($info['validation']) && is_array($info['validation'])){
+				switch(array_keys($info['validation'])[0]){
+					case "regex":
+					if(preg_match($info['validation']['regex'],$data[$column]) == false) {
+						if(isset($info['validation_error'])){
+							$this->errors[$column] = $info['validation_error'];
+						}else{
+							$this->errors[$column] = ucwords(strtolower(str_replace("_"," ",$column))) . " is not valid!";
+						}
+						
+						continue;
+					}
+					break;
+
+					case "filter":
+					if(filter_var($data[$column], $info['validation']) === false) {
+						if(isset($info['validation_error'])){
+							$this->errors[$column] = $info['validation']['validation_error'];
+						}else{
+							$this->errors[$column] = ucwords(strtolower(str_replace("_"," ",$column))) . " is not valid!";
+						}
+						continue;
+					}
+					break;
+				}
+				
+			}
+		}
+
+		if(empty($this->errors)){
+			return true;
+		}else{
+			return false;
+		}
+	}
+
+	function doAction($action, $info){
+		if(isset($info) && $this->validate($info,$action)){
+			switch($action){
+				case "create":
+				if(isset($_FILES['logo'])){
+					$image = new Bulletproof\Image($_FILES);
+
+					if($image["logo"]){
+						$image->setLocation("uploads");  
+						$upload = $image->upload(); 
+						if($upload){
+							$info['logo'] = $image->getFullPath();
+						}else{
+							$this->errors['logo'] = $image["error"];
+							return false;
+						}
+					}
+
+					if (!empty($_FILES['files'])) {
+						$files = array();
+						foreach ($_FILES['files'] as $k => $l) {
+							foreach ($l as $i => $v) {
+								if (!array_key_exists($i, $files)) $files[$i] = array();
+								$files[$i][$k] = $v;
+							}
+						}      
+
+						foreach ($files as $file) {
+							$handle = new upload($file);
+							if ($handle->uploaded) {
+								$handle->Process("uploads");
+								if ($handle->processed) {
+									$info['file'] = $handle->file_dst_pathname;
+								} else {
+									//echo 'Error: ' . $handle->error;
+								}
+							} else {
+								//echo 'Error: ' . $handle->error;
+							}
+							unset($handle);
+						}  
+						
+					}
+					$id = $this->DB->insert("spa", $info);
+					if($id > 0){
+						$this->id = $id;
+						return true;
+					}
+				}
+				
+				return false;
+
+				break;
+
+				case "review":
+				$info['type'] = "spa";
+				$info['link_id'] = $this->id;
+				$id = $this->DB->insert("reviews", $info);
+
+				if($id > 0){
+					return true;
+				}
+				break;
+			}
+		}else{
+			return false;
+		}
+
+	}
+}

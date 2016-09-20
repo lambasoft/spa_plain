@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <?php
 include("layouts/home.head.php");
+?>
+
+<body id="home-page">
+
+<?php
 include("layouts/common/nav_bar.php");
 ?>
 
-<body id="app-layout">
 
 <!-- Header -->
 <?php
@@ -75,7 +80,7 @@ include("layouts/common/nav_bar.php");
                 <div class="col-md-3 col-xs-6 fadeInRight animated">
                     <div class="single-page border-bottom-hover-yellow">
                         <a href="#">
-                            <h3 class="colored-white">RATE SPA</h3>
+                            <h3 class="colored-white">RATING</h3>
                         </a>
                     </div>
                 </div>
@@ -102,9 +107,6 @@ include("layouts/common/nav_bar.php");
 include("layouts/home.footer.php");
 ?>
 
-
-</div>
-</body>
 
 <!-- Bootstrap core JavaScript
 ================================================== -->

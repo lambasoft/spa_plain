@@ -16,7 +16,7 @@ Class FormBuilder {
 
 	var $configs = array(
 		"file_upload_tags" => array(
-			"logo","image","picture","pic"
+			"logo","image","picture","pic","photo"
 			)
 		);
 
@@ -31,7 +31,7 @@ Class FormBuilder {
 			$this->inputs = $this->build();
 			if(isset($_POST)){
 				$this->post = $_POST;
-			}		
+			}
 
 		}else{
 			$this->errors['error'] = "Invalid Class";
@@ -108,7 +108,8 @@ Class FormBuilder {
 						break;
 
 						case "input_type":
-						if(in_array($element, $this->configs['file_upload_tags'])){
+						if(in_array($element, array_merge($this->configs['file_upload_tags'],
+							array_map( function(&$item) { $item .= "s"; }, $this->configs['file_upload_tags'])))){
 							$inputs[$element][$diff] = "file";
 						}else{
 							$inputs[$element][$diff] = "text";
@@ -170,48 +171,39 @@ Class FormBuilder {
 			$html = "<div class='form-group " . (!empty($value['error']) ? ' has-error': '') . "' >";
 			$html .= "<label class='control-label'>" . $value['input_label_text'] . "</label> " .  (($value['required'] == true) ? "*" : "");
 		}
-		
 
+
+		$extra = "";
+		if(isset($value['input_style'])){
+			$extra .= " style='{$value['input_style']}'";
+		}
+
+		if(isset($value['input_id'])){
+			$extra .= " id='{$value['input_id']}'";
+		}
+		if(isset($value['input_class'])){
+			$extra .= " class='{$value['input_class']}'";
+		}
+		if(isset($value['input_name'])){
+			$extra .= " class='{$value['input_name']}'";
+		}
 
 		switch($value['input_type']){
 			case "text":
-			$html .= "<input type='text' class='form-control' name='" . $value['input_name'] . "' value='" . $this->old($name) . "'> ";
+			$html .= "<input type='text' class='form-control' name='" . $value['input_name'] . "' value='" . $this->old($name) . "' {$extra} > ";
 			break;
 
 			case "textarea":
-			$html .= "<textarea class='form-control'  name='" . $value['input_name'] . "'  rows='5'>" . $this->old($name) . "</textarea>";
+			$html .= "<textarea class='form-control'  name='" . $value['input_name'] . "'  rows='5'  {$extra} >" . $this->old($name) . "</textarea>";
 
 			break;
 
 
 			case "div":
-			$extra = "";
-			if(isset($value['input_style'])){
-				$extra .= " style='{$value['input_style']}'";
-			}
-
-			if(isset($value['input_id'])){
-				$extra .= " id='{$value['input_id']}'";
-			}
-			if(isset($value['input_class'])){
-				$extra .= " class='{$value['input_class']}'";
-			}
-			if(isset($value['input_name'])){
-				$extra .= " class='{$value['input_name']}'";
-			}
-			
 			$html .= "<div value='" . $this->old($name) . "' {$extra} ></div>";
 			break;
 
 			case "hidden":
-			$extra = "";
-			if(isset($value['input_id'])){
-				$extra = " id='{$value['input_id']}'";
-			}
-			if(isset($value['input_class'])){
-				$extra = " class='{$value['input_class']}'";
-			}
-
 			$html = "<input type='hidden' name='" . $value['input_name'] . "' value='" . $this->old($name) . "' {$extra} /> ";
 			break;
 
@@ -222,12 +214,12 @@ Class FormBuilder {
 						$html .= "<input type='file' class='form-control' name='" . $value['input_name'] . "[]'> ";
 					}
 				}
-				
+
 			}else{
 				$html .= "<input type='file' class='form-control' name='" . $value['input_name'] . "' value='" . $this->old($name) . "'> ";
 			}
 
-			
+
 			break;
 		}
 
@@ -249,7 +241,7 @@ Class FormBuilder {
 				$html = $this->getInputToken("KeyGoesHere");
 				foreach($this->inputs as $name => $value){
 					$html .= $this->getElementHtml($name,$value);
-				} 
+				}
 				$html .= $this->getSubmitHtml($this->button);
 
 				$formHtml = "<form role='form' method='POST' action='" . (isset($this->configs['action_path']) ? $this->configs['action_path']: "#"). "' " . (isset($this->configs['enctype']) ? "enctype='" . $this->configs['enctype']  . "'": ""). ">%s</form>";

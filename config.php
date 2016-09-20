@@ -76,11 +76,7 @@ defined("STYLES_PATH") or define("STYLES_PATH", $configs['paths']['resources']['
 defined("PLUGINS_PATH") or define("PLUGINS_PATH", "plugins");
 defined("BOOTSTRAP_PATH") or define("BOOTSTRAP_PATH",  $configs['paths']['resources']['bootstrap']);
 
-/*
-    Error reporting.
-*/
-ini_set("error_reporting", "true");
-error_reporting(E_ALL|E_STRCT);
+
 
 $db = $configs['db']['local'];
 
@@ -93,3 +89,9 @@ $User = new User($dbh, $config, $DB);
 //if($User->auth->isLogged()){
 //   $User = $auth->getUser($auth->getSessionUID($auth->getSessionHash()));
 //}
+
+/*
+    Error reporting.
+*/
+ini_set("error_reporting", "true");
+error_reporting(E_ALL|E_STRCT);

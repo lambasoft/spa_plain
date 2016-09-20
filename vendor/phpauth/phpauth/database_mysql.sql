@@ -35,6 +35,7 @@ INSERT INTO `config` (`setting`, `value`) VALUES
 ('cookie_secure', '0'),
 ('emailmessage_suppress_activation',  '0'),
 ('emailmessage_suppress_reset', '0'),
+('mail_charset','UTF-8'),
 ('password_min_score',  '3'),
 ('site_activation_page',  'activate'),
 ('site_email',  'no-reply@phpauth.cuonic.com'),
@@ -57,7 +58,8 @@ INSERT INTO `config` (`setting`, `value`) VALUES
 ('verify_email_max_length', '100'),
 ('verify_email_min_length', '5'),
 ('verify_email_use_banlist',  '1'),
-('verify_password_min_length',  '3');
+('verify_password_min_length',  '3'),
+('request_key_expiration', '+10 minutes');
 
 DROP TABLE IF EXISTS `requests`;
 CREATE TABLE `requests` (

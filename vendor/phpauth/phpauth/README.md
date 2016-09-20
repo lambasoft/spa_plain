@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/PHPAuth/PHPAuth.png)](https://travis-ci.org/PHPAuth/PHPAuth)
+[![Build Status](https://api.travis-ci.org/PHPAuth/PHPAuth.png)](https://api.travis-ci.org/PHPAuth/PHPAuth) 
+[![ghit.me](https://ghit.me/badge.svg?repo=phpauth/phpauth)](https://ghit.me/repo/phpauth/phpauth)
+
 PHPAuth
 =======
 
@@ -161,13 +163,16 @@ Example: `$auth   = new PHPAuth\Auth($dbh, $config, "fr_FR");`
 Available languages:
 
 * `en_GB` (Default)
+* `da_DK`
 * `de_DE`
 * `fa_IR`
 * `fr_FR`
 * `it_IT`
 * `nl_BE`
+* `nl_NL`
 * `pt_BR`
 * `ru_RU`
+* `se_SE`
 
 Documentation
 ---------------

@@ -133,7 +133,7 @@ class Image implements \ArrayAccess
             $this->_files = $this->_files[$offset];
             return true;
         }
-        
+
         return false;
     }
 
@@ -149,7 +149,7 @@ class Image implements \ArrayAccess
         if ($isNameProvided) {
             $this->name = filter_var($isNameProvided, FILTER_SANITIZE_STRING);
         }
-        
+
         return $this;
     }
 
@@ -262,7 +262,7 @@ class Image implements \ArrayAccess
             return $this->height;
         }
 
-        list(, $height) = getImageSize($this->_files["tmp_name"]); 
+        list(, $height) = getImageSize($this->_files["tmp_name"]);
         return $height;
     }
 
@@ -277,7 +277,7 @@ class Image implements \ArrayAccess
             return $this->width;
         }
 
-        list($width) = getImageSize($this->_files["tmp_name"]); 
+        list($width) = getImageSize($this->_files["tmp_name"]);
         return $width;
     }
 
@@ -289,10 +289,10 @@ class Image implements \ArrayAccess
     public function getLocation()
     {
         if(!$this->location){
-            $this->setLocation(); 
+            $this->setLocation();
         }
 
-        return $this->location; 
+        return $this->location;
     }
 
     /**
@@ -344,13 +344,13 @@ class Image implements \ArrayAccess
     public function upload()
     {
         /* modify variable names for convenience */
-        $image = $this; 
+        $image = $this;
         $files = $this->_files;
 
         /* initialize image properties */
         $image->name     = $image->getName();
         $image->width    = $image->getWidth();
-        $image->height   = $image->getHeight(); 
+        $image->height   = $image->getHeight();
         $image->location = $image->getLocation();
 
         /* get image sizes */
@@ -369,12 +369,12 @@ class Image implements \ArrayAccess
             $ext = implode(", ", $image->mimeTypes);
             $image->error = "Invalid File! Only ($ext) image types are allowed";
             return ;
-        }     
+        }
 
         /* check image size based on the settings */
         if ($files["size"] < $minSize || $files["size"] > $maxSize) {
             $min = intval($minSize / 1000) ?: 1; $max = intval($maxSize / 1000);
-            
+
             $image->error = "Image size should be atleast more than min: $min and less than max: $max kb";
             return ;
         }
@@ -388,14 +388,14 @@ class Image implements \ArrayAccess
         }
 
         if($image->height < 4 || $image->width < 4){
-            $image->error = "Invalid! Image height/width is too small or maybe corrupted"; 
+            $image->error = "Invalid! Image height/width is too small or maybe corrupted";
             return ;
         }
- 
+
         /* set and get folder name */
         $image->fullPath = $image->location. "/" . $image->name . "." . $image->mime;
 
-        /* gather image info for json storage */ 
+        /* gather image info for json storage */
         $image->serialize = array(
             "name"     => $image->name,
             "mime"     => $image->mime,
@@ -412,7 +412,7 @@ class Image implements \ArrayAccess
                 return $image;
             }
         }
-        
+
         $image->error = "Upload failed, Unknown error occured";
         return false;
     }

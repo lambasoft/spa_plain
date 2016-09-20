@@ -119,7 +119,7 @@ class User extends PHPAuth\Auth{
                    }else{
                        $this->errors['password'] = $results['message'];
                    }
-                   
+
                    return false;
                }
                return true;
@@ -200,7 +200,6 @@ function doActivate(){
         return false;
     }
 
-    print_r($this->errors);
     return true;
 
 }

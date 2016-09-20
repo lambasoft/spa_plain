@@ -7,11 +7,20 @@ namespace Composer\Autoload;
 class ComposerStaticInitd5c8a578b22f47050abc03f95f1202c6
 {
     public static $files = array (
-        'c7359326b6707d98bdc176bf9ddeaebf' => __DIR__ . '/..' . '/catfan/medoo/medoo.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'a75bcb782b1fb68c836afff6cd5a584c' => __DIR__ . '/..' . '/samayo/bulletproof/src/bulletproof.php',
+        'c7359326b6707d98bdc176bf9ddeaebf' => __DIR__ . '/..' . '/catfan/medoo/medoo.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'Z' => 
+        array (
+            'ZxcvbnPhp\\' => 10,
+        ),
+        'S' => 
+        array (
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
+        ),
         'R' => 
         array (
             'Respect\\Validation\\' => 19,
@@ -23,6 +32,14 @@ class ComposerStaticInitd5c8a578b22f47050abc03f95f1202c6
     );
 
     public static $prefixDirsPsr4 = array (
+        'ZxcvbnPhp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/bjeavons/zxcvbn-php/src',
+        ),
+        'Symfony\\Polyfill\\Mbstring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
         'Respect\\Validation\\' => 
         array (
             0 => __DIR__ . '/..' . '/respect/validation/library',
@@ -30,16 +47,6 @@ class ComposerStaticInitd5c8a578b22f47050abc03f95f1202c6
         'PHPAuth\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpauth/phpauth',
-        ),
-    );
-
-    public static $prefixesPsr0 = array (
-        'Z' => 
-        array (
-            'ZxcvbnPhp' => 
-            array (
-                0 => __DIR__ . '/..' . '/bjeavons/zxcvbn-php/src',
-            ),
         ),
     );
 
@@ -60,7 +67,6 @@ class ComposerStaticInitd5c8a578b22f47050abc03f95f1202c6
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInitd5c8a578b22f47050abc03f95f1202c6::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInitd5c8a578b22f47050abc03f95f1202c6::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitd5c8a578b22f47050abc03f95f1202c6::$prefixesPsr0;
             $loader->classMap = ComposerStaticInitd5c8a578b22f47050abc03f95f1202c6::$classMap;
 
         }, null, ClassLoader::class);
